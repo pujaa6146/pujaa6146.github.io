@@ -1,0 +1,123 @@
+{
+  "basic_info": {
+    "description_header": "Hola",
+    "description": "👋 I'm Pujaa, who was once a meticulous UI automation tester, wanting to get to the other end of the spectrum. Driven by curiosity and passion towards UI/UX, I have transformed into an autodicdatic Front-End Developer. My aspirations are also towards learning Full-Stack Web Development which would eventually make me a complete Web Developer. When am not thinking about Web, I am into fitness, dance and badminton!",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Donate Anything",
+      "startDate": "2021",
+      "description": "My first ReactNative concept app with an intention to connect NGOs & people who wish to donate. NGOs will be able to get the right donater based on nearest location (thanks to Expo SDK's Geocoding API) and the items they are willing to donate. NGOs can then establish contact with the donater via email. Had lots of fun while developing this app and gained hands-on experience with ReactNative & NodeJS.",
+      "images": [
+        "images/portfolio/donate-anything/p1.png",
+        "images/portfolio/donate-anything/p2.png"
+      ],
+      "url": "https://github.com/pujaa6146/DonateAnything",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React Native"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJs"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        }
+      ]
+    },
+    {
+      "title": "Word Builder",
+      "startDate": "2020",
+      "description": "Fun project to bring back the classic word builder game that I used to play with my friends, but this time lets compete with a bot! Made use of some public Word Generator & Dictionary APIs to power my word generation bot. Got a hang of how to layout a web app using ReactJS from scratch.",
+      "images": [
+        "images/portfolio/Word-Builder/p1.jpg",
+        "images/portfolio/Word-Builder/p2.jpg"
+      ],
+      "url": "https://github.com/pujaa6146/Word_Builder",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Ristorante - Capstone",
+      "startDate": "2020",
+      "description": "One of my first apps as part of my Coursera Capstone project. Developed a restaurant info app which explores ReactJS & Redux along with basic understanding of server-side concepts like CRUD and RESTful APIs. Also built and configured a backend server using NodeJS & Express framework.",
+      "images": [
+        "images/portfolio/Restaurant app/p1.jpg",
+        "images/portfolio/Restaurant app/p2.jpg",
+        "images/portfolio/Restaurant app/p3.jpg"
+      ],
+
+      "technologies": [
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstarp 4"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJs"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Accenture Solutions Pvt Ltd",
+      "title": "Automation Testing",
+      "years": "05.2017 - 06.2020",
+      "mainTech": ["TOSCA-Automation"],
+      "technologies": ["TOSCA_TDS1", "TOSCA_TDS2", "TOSCA_AE1"]
+    },
+    {
+      "company": "Freelance",
+      "title": "Front-End Developer",
+      "years": "08.2020 - present",
+      "mainTech": ["ReactJS & ReactNative"],
+      "technologies": [
+        "HTML",
+        "CSS3",
+        "JavaScript",
+        "Bootstrap",
+        "Reactstrap",
+        "React",
+        "React Native",
+        "NodeJS",
+        "Redux",
+        "Express",
+        "MongoDB"
+      ]
+    }
+  ]
+}
