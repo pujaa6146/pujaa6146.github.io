@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import $ from "jquery";
-import "./App.scss";
-import { Button } from 'react-bootstrap';
+import "./App.css";
+import { Button } from "react-bootstrap";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
@@ -10,7 +10,6 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 class App extends Component {
-
   constructor(props) {
     super();
     this.state = {
@@ -55,7 +54,7 @@ class App extends Component {
   componentDidMount() {
     this.loadSharedData();
     this.applyPickedLanguage(
-      window.$primaryLanguage,
+      window.$primaryLanguage
       // window.$secondaryLanguageIconId
     );
   }
@@ -92,12 +91,18 @@ class App extends Component {
   render() {
     return (
       <div>
-        
         <Header sharedData={this.state.sharedData.basic_info} />
         <div className="col-md-12 mx-auto text-center language">
-          <Button variant="outline-secondary" href={require('./Documents/pujaa_cv.pdf')} target="_blank" size="lg">View my Resume</Button>
-          </div>
-                
+          <Button
+            variant="outline-secondary"
+            href={require("./Documents/pujaa_cv.pdf")}
+            target="_blank"
+            size="lg"
+          >
+            View my Resume
+          </Button>
+        </div>
+
         {/* <div className="col-md-12 mx-auto text-center language">
           <div
             onClick={() =>
