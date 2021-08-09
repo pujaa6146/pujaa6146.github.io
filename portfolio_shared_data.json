@@ -1,0 +1,72 @@
+{
+  "basic_info": {
+    "name": "Pujaa C S",
+    "titles": [
+      "Front-end Developer",
+      "Mobile App Developer",
+      "Aspiring Full-Stack Engineer"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/pujaa6146",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/pujaashivashankar/",
+        "class": "fab fa-instagram"
+      }
+    ],
+    "image": "myProfile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "85"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-original",
+        "level": "85"
+      },
+      {
+        "name": "React Native",
+        "class": "devicon-react-original",
+        "level": "85"
+      },
+      {
+        "name": "NodeJs",
+        "class": "devicon-nodejs-plain",
+        "level": "85"
+      },
+      {
+        "name": "Express",
+        "class": "devicon-express-original",
+        "level": "85"
+      },
+      {
+        "name": "Mongo DB",
+        "class": "devicon-mongodb-plain",
+        "level": "85"
+      }
+    ]
+  }
+}
